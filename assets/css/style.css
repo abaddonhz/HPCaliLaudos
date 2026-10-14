@@ -96,7 +96,14 @@ button{font:inherit;cursor:pointer}
 /* ABADDON STUDIO: assinatura visual no rodapé do site, fora do documento */
 .site-footer{position:relative;max-width:1380px;margin:26px auto 0;padding:23px 20px 28px;text-align:center;border-top:1px solid #34506466;color:#9cb2bf;font-size:11px;letter-spacing:.09em}
 
-.site-footer .studio{font-weight:800;color:#d9c5ff;text-shadow:0 0 10px #9955ff66,0 0 22px #7e3bda33;letter-spacing:.14em}
+
+.site-footer .studio {
+  font-weight: 700;
+  color: #c4b5d9;
+  text-shadow: none;
+  letter-spacing: .08em;
+}
+
 
 @media print{.site-footer{display:none!important}
 }
