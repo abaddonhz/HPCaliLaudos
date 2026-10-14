@@ -46,7 +46,7 @@ button{font:inherit;cursor:pointer}
   font-size: 48px;
   color: #1687a4;
   margin-right: 8px;
-  transform: translateY(12px);
+  transform: translateY(2px);
 }
 
 .logo small{display:block;font-size:10px;letter-spacing:3px;margin-left:39px}
