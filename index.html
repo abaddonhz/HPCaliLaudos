@@ -1,10 +1,389 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>California RP | Central de Laudos</title><link rel="icon" type="image/svg+xml" href="favicon.svg"><meta name="theme-color" content="#102b42"><style>
-:root{--bg:#07131e;--panel:#101f2c;--line:#294454;--a:#58c9dc;--white:#edf7fb;--muted:#9cb2bf}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--white);font:15px system-ui,Segoe UI,sans-serif}body:before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(ellipse at 15% 10%,#1e6b7855,transparent 43%),radial-gradient(ellipse at 90% 75%,#25577944,transparent 43%);animation:drift 12s ease-in-out infinite alternate}@keyframes drift{to{transform:translate(2%,-2%) scale(1.07)}}.shell{position:relative;max-width:1380px;margin:auto;padding:24px}.top{display:flex;align-items:center;justify-content:space-between;gap:18px;border:1px solid var(--line);background:#0c1d2bda;padding:18px 24px;border-radius:18px;margin-bottom:22px}.brand{display:flex;align-items:center;gap:15px}.cross{font-size:38px;color:var(--a)}h1{font-size:21px;margin:0}small,.sub{color:var(--muted)}.tag{border:1px solid #42899a;border-radius:30px;padding:8px 13px;color:#a4edf5;font-size:12px}.layout{display:grid;grid-template-columns:minmax(330px,520px) minmax(460px,1fr);gap:22px;align-items:start}.panel{background:#102230e8;border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 18px 45px #0003}.steps{display:flex;flex-wrap:wrap;gap:7px;margin:18px 0 24px}.step{background:#1b3544;color:#b7cbd5;border:1px solid #355568;padding:9px 12px;border-radius:10px;cursor:pointer}.step.active{background:#1c6473;color:white;border-color:#65d3e6}.screen{display:none}.screen.active{display:block}h2{font-size:20px;margin:0 0 8px}.desc{color:var(--muted);margin:0 0 22px;line-height:1.5}.field{margin-bottom:16px}label{display:block;font-weight:650;font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:#bad5df;margin-bottom:7px}input,textarea,select{width:100%;background:#071824;color:#eef8fc;border:1px solid #355265;border-radius:9px;padding:12px;font:inherit;outline:none}input:focus,textarea:focus,select:focus{border-color:var(--a);box-shadow:0 0 0 3px #58c9dc22}textarea{min-height:115px;resize:vertical}.twocol{display:grid;grid-template-columns:1fr 1fr;gap:12px}.actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:20px}button{font:inherit;cursor:pointer}.btn{background:#50bbce;color:#06212a;border:0;border-radius:9px;padding:12px 16px;font-weight:750}.btn.secondary{background:#213a4a;color:#e4f4f9;border:1px solid #35596b}.btn:disabled{opacity:.45;cursor:not-allowed}.hint{font-size:12px;color:#9bb3bf;margin-top:10px}.preview-title{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px}.preview-title h2{margin:0;font-size:17px}.paper{background:white;color:#1c3347;width:100%;max-width:780px;min-height:920px;margin:auto;padding:35px 38px;box-shadow:0 15px 40px #0005;position:relative;overflow:hidden;font-family:Arial,sans-serif}.paper:before{content:"✚";position:absolute;right:25px;top:280px;font-size:310px;color:#eff5f8;z-index:0}.paper>*{position:relative;z-index:1}.ph{display:flex;justify-content:space-between;align-items:center;border-bottom:3px solid #143d5a;padding-bottom:18px}.logo{font-size:22px;line-height:1.06;font-weight:900;color:#123653}.logo span{font-size:30px;color:#1687a4;margin-right:8px}.logo small{display:block;font-size:10px;letter-spacing:3px;margin-left:39px}.phright{text-align:right;font-size:9px;color:#537186;line-height:1.7}.dochead{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:20px 0}.dochead h2{font-size:30px;color:#102e47;margin:0}.dochead p{font-size:9px;letter-spacing:2px;margin:5px 0}.serial{font-size:10px;border:1px solid #afc8d6;border-radius:5px;padding:10px;line-height:1.6}.section{background:#173e5e;color:white;font-weight:bold;font-size:12px;padding:9px 12px;margin:20px 0 12px;border-radius:4px;letter-spacing:.04em}.identity{display:grid;grid-template-columns:130px 1fr;gap:17px}.portrait{width:130px;height:157px;object-fit:cover;object-position:center top;border:4px solid #e8eef3;outline:1px solid #9cb3c6;background:#e5edf2}.placeholder{display:flex;align-items:center;justify-content:center;font-size:12px;color:#8295a1;text-align:center}.data{display:grid;grid-template-columns:1fr 1fr;gap:11px}.item.wide{grid-column:span 2}.item strong{display:block;font-size:9px;color:#234963;text-transform:uppercase;margin-bottom:5px}.item .value{font-size:13px;overflow-wrap:anywhere;border-bottom:1px solid #cfdee8;min-height:19px}.bodycopy{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px;line-height:1.6;min-height:35px}.diagnosis{font-size:17px;font-weight:bold;color:#133f5d;overflow-wrap:anywhere}.signatures{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:35px;align-items:end}.signature{text-align:center;border-bottom:1px solid #30536d;font-family:cursive;font-size:22px;font-style:italic;color:#12446d;overflow-wrap:anywhere}.sigcaption{text-align:center;font-size:10px;margin-top:7px}.stamp{border:2px solid #285779;color:#285779;text-align:center;transform:rotate(-4deg);padding:10px 6px;font-size:10px;line-height:1.6;font-weight:bold;overflow-wrap:anywhere}.foot{margin-top:25px;border-top:1px solid #c8d8e1;padding-top:9px;text-align:center;color:#637f90;font-size:9px;letter-spacing:.08em}.upload{border:1px dashed #598294;padding:12px;border-radius:9px}.upload input{padding:6px;border:0}.hidden{display:none!important}@media(max-width:1000px){.layout{grid-template-columns:1fr}.paper{max-width:750px}}@media(max-width:580px){.shell{padding:10px}.panel{padding:14px}.paper{padding:18px 14px;min-height:800px}.identity{grid-template-columns:90px 1fr}.portrait{width:90px;height:118px}.dochead h2{font-size:23px}.logo{font-size:15px}.logo span{font-size:20px}.twocol{grid-template-columns:1fr}.data{gap:7px}.phright{font-size:7px}}@page{size:A4;margin:0}@media print{body{background:white}.shell{max-width:none;padding:0}.top,.editor,.preview-title{display:none!important}.layout{display:block}.preview{border:0;box-shadow:none;padding:0;background:white}.paper{width:210mm;max-width:none;min-height:297mm;padding:15mm;box-shadow:none;margin:0;break-after:avoid;print-color-adjust:exact;-webkit-print-color-adjust:exact}.section{break-after:avoid}.identity,.signatures{break-inside:avoid}}
-
-/* ABADDON STUDIO: assinatura visual no rodapé do site, fora do documento */
-.site-footer{position:relative;max-width:1380px;margin:26px auto 0;padding:23px 20px 28px;text-align:center;border-top:1px solid #34506466;color:#9cb2bf;font-size:11px;letter-spacing:.09em}
-.site-footer .studio{font-weight:800;color:#d9c5ff;text-shadow:0 0 10px #9955ff66,0 0 22px #7e3bda33;letter-spacing:.14em}
-@media print{.site-footer{display:none!important}}
-</style></head><body><main class="shell"><header class="top"><div class="brand"><div class="cross">✚</div><div><h1>CALIFORNIA RP <span style="color:#60d1df">|</span> CENTRAL MÉDICA</h1><small>Sistema de emissão de laudos • Roleplay</small></div></div><span class="tag">DOCUMENTOS FICTÍCIOS</span></header><div class="layout"><section class="panel editor"><h2>Emissão de laudo</h2><p class="desc">Preencha as etapas. O documento é atualizado em tempo real.</p><nav class="steps" id="steps"><button class="step active" data-step="0">01 Paciente</button><button class="step" data-step="1">02 Diagnóstico</button><button class="step" data-step="2">03 Médico</button><button class="step" data-step="3">04 Finalizar</button></nav><div class="screen active" data-screen="0"><h2>Dados do paciente</h2><p class="desc">Identificação e foto para o prontuário.</p><div class="field"><label>Nome completo</label><input data-key="patient" value="Padrinho Corleone" maxlength="100"></div><div class="twocol"><div class="field"><label>Idade</label><input data-key="age" value="35 anos"></div><div class="field"><label>Relacionamento</label><input data-key="relationship" value="Larissa Moundest"></div></div><div class="field"><label>Fotografia do paciente</label><div class="upload"><input type="file" id="photo" accept="image/*"><p class="hint">JPG, PNG ou WEBP. A foto fica somente no navegador.</p><button class="btn secondary" id="removePhoto" type="button">Remover foto</button></div></div></div><div class="screen" data-screen="1"><h2>Avaliação clínica</h2><p class="desc">Defina o diagnóstico e a justificativa dentro da narrativa do servidor.</p><div class="field"><label>Diagnóstico</label><input data-key="diagnosis" value="Fotodermatite crônica idiopática"></div><div class="field"><label>Código (opcional)</label><input data-key="code" value="L56.8"></div><div class="field"><label>Descrição clínica</label><textarea data-key="description">Paciente apresenta hipersensibilidade cutânea facial à luz natural e artificial, com ardência, vermelhidão e inflamação após exposição.</textarea></div><div class="field"><label>Conduta e recomendações</label><textarea data-key="recommendations">Uso contínuo de proteção facial (máscara) em ambientes internos e externos, com acompanhamento dermatológico periódico.</textarea></div></div><div class="screen" data-screen="2"><h2>Responsável e unidade</h2><p class="desc">Personalize o médico, a assinatura textual e o carimbo.</p><div class="field"><label>Hospital</label><input data-key="hospital" value="Hospital California RP"></div><div class="field"><label>Médico responsável</label><input data-key="doctor" value="Dr. Jonny Penera"></div><div class="field"><label>Assinatura (texto)</label><input data-key="signature" value="Jonny Penera"></div><div class="field"><label>Especialidade</label><input data-key="specialty" value="Dermatologia"></div><div class="field"><label>Texto adicional do carimbo</label><input data-key="stamp" value="Centro Médico • California RP"></div></div><div class="screen" data-screen="3"><h2>Revisão e exportação</h2><p class="desc">Confira a prévia, depois exporte para PDF ou guarde um modelo para reutilizar.</p><div class="twocol"><div class="field"><label>Número do laudo</label><input data-key="number" value="RP-2026-001"></div><div class="field"><label>Data de emissão</label><input data-key="date" type="date" value="2026-10-14"></div></div><div class="actions"><button class="btn" id="print">Salvar como PDF</button><button class="btn secondary" id="export">Exportar dados</button><label class="btn secondary" style="cursor:pointer;margin:0">Importar dados<input id="import" type="file" accept="application/json" class="hidden"></label></div><p class="hint">No diálogo de impressão, escolha “Salvar como PDF” e ative “Gráficos de plano de fundo”.</p></div><div class="actions"><button class="btn secondary" id="back">Voltar</button><button class="btn" id="next">Próxima etapa →</button><button class="btn secondary" id="reset">Restaurar exemplo</button></div></section><section class="panel preview"><div class="preview-title"><h2>Prévia do documento</h2><small>Formato A4 • Atualização instantânea</small></div><article class="paper"><div class="ph"><div class="logo"><span>✚</span> HOSPITAL<br><span style="font-size:25px;color:#123653;margin-left:39px">CALIFORNIA RP</span><small>CENTRO MÉDICO</small></div><div class="phright">DEPARTAMENTO DE DERMATOLOGIA<br>ATENDIMENTO CLÍNICO • ROLEPLAY<br>LOS SANTOS, CALIFORNIA RP</div></div><div class="dochead"><div><h2>LAUDO MÉDICO</h2><p>AVALIAÇÃO CLÍNICA • DOCUMENTO DE RP</p></div><div class="serial">Nº <span data-out="number"></span><br>EMISSÃO: <span data-out="date"></span><br>FICTÍCIO / ROLEPLAY</div></div><div class="section">01 / IDENTIFICAÇÃO DO PACIENTE</div><div class="identity"><div id="portraitHolder" class="portrait placeholder">FOTO DO<br>PACIENTE</div><div class="data"><div class="item wide"><strong>Nome completo</strong><div class="value" data-out="patient"></div></div><div class="item"><strong>Idade</strong><div class="value" data-out="age"></div></div><div class="item"><strong>Relacionamento</strong><div class="value" data-out="relationship"></div></div><div class="item wide"><strong>Médico responsável</strong><div class="value" data-out="doctor"></div></div><div class="item wide"><strong>Unidade hospitalar</strong><div class="value" data-out="hospital"></div></div></div></div><div class="section">02 / DIAGNÓSTICO</div><div class="diagnosis" data-out="diagnosis"></div><div class="bodycopy">Classificação: <span data-out="code"></span></div><div class="section">03 / DESCRIÇÃO CLÍNICA</div><div class="bodycopy" data-out="description"></div><div class="section">04 / CONDUTA E RECOMENDAÇÕES</div><div class="bodycopy" data-out="recommendations"></div><div class="signatures"><div><div class="signature" data-out="signature"></div><div class="sigcaption"><strong data-out="doctor"></strong><br><span data-out="specialty"></span></div></div><div class="stamp"><span data-out="hospital"></span><br><span data-out="doctor"></span><br><span data-out="specialty"></span><br><span data-out="stamp"></span><br>CARIMBO FICTÍCIO</div></div><div class="foot">DOCUMENTO FICTÍCIO • EXCLUSIVO PARA ROLEPLAY • SEM VALIDADE MÉDICA OU LEGAL</div></article></section></div><footer class="site-footer">© 2026 <span class="studio">ABADDON STUDIO</span> <span aria-hidden="true">•</span> Todos os direitos reservados.</footer></main><script>
-const defaults={};document.querySelectorAll('[data-key]').forEach(el=>defaults[el.dataset.key]=el.value);let current=0;let photoData='';const inputs=[...document.querySelectorAll('[data-key]')];function showStep(n){current=Math.max(0,Math.min(3,n));document.querySelectorAll('[data-step]').forEach(e=>e.classList.toggle('active',+e.dataset.step===current));document.querySelectorAll('[data-screen]').forEach(e=>e.classList.toggle('active',+e.dataset.screen===current));document.getElementById('back').disabled=current===0;document.getElementById('next').style.display=current===3?'none':''}function render(){inputs.forEach(el=>{document.querySelectorAll('[data-out="'+el.dataset.key+'"]').forEach(out=>out.textContent=el.dataset.key==='date'&&el.value?el.value.split('-').reverse().join('/'):el.value)});const holder=document.getElementById('portraitHolder');holder.replaceChildren();if(photoData){const img=document.createElement('img');img.src=photoData;img.className='portrait';img.alt='Foto do paciente';holder.replaceWith(img);img.id='portraitHolder'}else{holder.textContent='FOTO DO PACIENTE';holder.className='portrait placeholder'}try{localStorage.setItem('california-rp-form',JSON.stringify(Object.fromEntries(inputs.map(i=>[i.dataset.key,i.value]))))}catch(e){}}function setPhoto(data){photoData=data;let el=document.getElementById('portraitHolder');const fresh=document.createElement('div');fresh.id='portraitHolder';fresh.className='portrait placeholder';el.replaceWith(fresh);render()}inputs.forEach(i=>i.addEventListener('input',render));document.querySelectorAll('[data-step]').forEach(b=>b.addEventListener('click',()=>showStep(+b.dataset.step)));document.getElementById('back').onclick=()=>showStep(current-1);document.getElementById('next').onclick=()=>showStep(current+1);document.getElementById('photo').onchange=e=>{const f=e.target.files[0];if(!f)return;if(!f.type.startsWith('image/'))return alert('Escolha uma imagem.');if(f.size>8*1024*1024)return alert('Imagem máxima: 8 MB.');const r=new FileReader();r.onload=()=>setPhoto(r.result);r.readAsDataURL(f)};document.getElementById('removePhoto').onclick=()=>{document.getElementById('photo').value='';setPhoto('')};document.getElementById('print').onclick=()=>window.print();document.getElementById('reset').onclick=()=>{if(!confirm('Restaurar todos os campos?'))return;inputs.forEach(i=>i.value=defaults[i.dataset.key]);setPhoto('');render();showStep(0)};document.getElementById('export').onclick=()=>{const data={fields:Object.fromEntries(inputs.map(i=>[i.dataset.key,i.value])),photo:photoData};const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='laudo-california-rp.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),2000)};document.getElementById('import').onchange=async e=>{const f=e.target.files[0];if(!f)return;try{const data=JSON.parse(await f.text());inputs.forEach(i=>{if(typeof data.fields?.[i.dataset.key]==='string')i.value=data.fields[i.dataset.key]});setPhoto(typeof data.photo==='string'&&data.photo.startsWith('data:image/')?data.photo:'');render()}catch(err){alert('Arquivo inválido.')}e.target.value=''};try{const saved=JSON.parse(localStorage.getItem('california-rp-form')||'{}');inputs.forEach(i=>{if(typeof saved[i.dataset.key]==='string')i.value=saved[i.dataset.key]})}catch(e){}showStep(0);render();
-</script></body></html>
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   California RP | Central de Laudos
+  </title>
+  <link href="favicon.svg" rel="icon" type="image/svg+xml"/>
+  <meta content="#102b42" name="theme-color"/>
+  <link href="assets/css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <main class="shell">
+   <header class="top">
+    <div class="brand">
+     <div class="cross">
+      ✚
+     </div>
+     <div>
+      <h1>
+       CALIFORNIA RP
+       <span style="color:#60d1df">
+        |
+       </span>
+       CENTRAL MÉDICA
+      </h1>
+      <small>
+       Sistema de emissão de laudos • Roleplay
+      </small>
+     </div>
+    </div>
+    <span class="tag">
+     DOCUMENTOS FICTÍCIOS
+    </span>
+   </header>
+   <div class="layout">
+    <section class="panel editor">
+     <h2>
+      Emissão de laudo
+     </h2>
+     <p class="desc">
+      Preencha as etapas. O documento é atualizado em tempo real.
+     </p>
+     <nav class="steps" id="steps">
+      <button class="step active" data-step="0">
+       01 Paciente
+      </button>
+      <button class="step" data-step="1">
+       02 Diagnóstico
+      </button>
+      <button class="step" data-step="2">
+       03 Médico
+      </button>
+      <button class="step" data-step="3">
+       04 Finalizar
+      </button>
+     </nav>
+     <div class="screen active" data-screen="0">
+      <h2>
+       Dados do paciente
+      </h2>
+      <p class="desc">
+       Identificação e foto para o prontuário.
+      </p>
+      <div class="field">
+       <label>
+        Nome completo
+       </label>
+       <input data-key="patient" maxlength="100" value="Padrinho Corleone"/>
+      </div>
+      <div class="twocol">
+       <div class="field">
+        <label>
+         Idade
+        </label>
+        <input data-key="age" value="35 anos"/>
+       </div>
+       <div class="field">
+        <label>
+         Relacionamento
+        </label>
+        <input data-key="relationship" value="Larissa Moundest"/>
+       </div>
+      </div>
+      <div class="field">
+       <label>
+        Fotografia do paciente
+       </label>
+       <div class="upload">
+        <input accept="image/*" id="photo" type="file"/>
+        <p class="hint">
+         JPG, PNG ou WEBP. A foto fica somente no navegador.
+        </p>
+        <button class="btn secondary" id="removePhoto" type="button">
+         Remover foto
+        </button>
+       </div>
+      </div>
+     </div>
+     <div class="screen" data-screen="1">
+      <h2>
+       Avaliação clínica
+      </h2>
+      <p class="desc">
+       Defina o diagnóstico e a justificativa dentro da narrativa do servidor.
+      </p>
+      <div class="field">
+       <label>
+        Diagnóstico
+       </label>
+       <input data-key="diagnosis" value="Fotodermatite crônica idiopática"/>
+      </div>
+      <div class="field">
+       <label>
+        Código (opcional)
+       </label>
+       <input data-key="code" value="L56.8"/>
+      </div>
+      <div class="field">
+       <label>
+        Descrição clínica
+       </label>
+       <textarea data-key="description">Paciente apresenta hipersensibilidade cutânea facial à luz natural e artificial, com ardência, vermelhidão e inflamação após exposição.</textarea>
+      </div>
+      <div class="field">
+       <label>
+        Conduta e recomendações
+       </label>
+       <textarea data-key="recommendations">Uso contínuo de proteção facial (máscara) em ambientes internos e externos, com acompanhamento dermatológico periódico.</textarea>
+      </div>
+     </div>
+     <div class="screen" data-screen="2">
+      <h2>
+       Responsável e unidade
+      </h2>
+      <p class="desc">
+       Personalize o médico, a assinatura textual e o carimbo.
+      </p>
+      <div class="field">
+       <label>
+        Hospital
+       </label>
+       <input data-key="hospital" value="Hospital California RP"/>
+      </div>
+      <div class="field">
+       <label>
+        Médico responsável
+       </label>
+       <input data-key="doctor" value="Dr. Jonny Penera"/>
+      </div>
+      <div class="field">
+       <label>
+        Assinatura (texto)
+       </label>
+       <input data-key="signature" value="Jonny Penera"/>
+      </div>
+      <div class="field">
+       <label>
+        Especialidade
+       </label>
+       <input data-key="specialty" value="Dermatologia"/>
+      </div>
+      <div class="field">
+       <label>
+        Texto adicional do carimbo
+       </label>
+       <input data-key="stamp" value="Centro Médico • California RP"/>
+      </div>
+     </div>
+     <div class="screen" data-screen="3">
+      <h2>
+       Revisão e exportação
+      </h2>
+      <p class="desc">
+       Confira a prévia, depois exporte para PDF ou guarde um modelo para reutilizar.
+      </p>
+      <div class="twocol">
+       <div class="field">
+        <label>
+         Número do laudo
+        </label>
+        <input data-key="number" value="RP-2026-001"/>
+       </div>
+       <div class="field">
+        <label>
+         Data de emissão
+        </label>
+        <input data-key="date" type="date" value="2026-10-14"/>
+       </div>
+      </div>
+      <div class="actions">
+       <button class="btn" id="print">
+        Salvar como PDF
+       </button>
+       <button class="btn secondary" id="export">
+        Exportar dados
+       </button>
+       <label class="btn secondary" style="cursor:pointer;margin:0">
+        Importar dados
+        <input accept="application/json" class="hidden" id="import" type="file"/>
+       </label>
+      </div>
+      <p class="hint">
+       No diálogo de impressão, escolha “Salvar como PDF” e ative “Gráficos de plano de fundo”.
+      </p>
+     </div>
+     <div class="actions">
+      <button class="btn secondary" id="back">
+       Voltar
+      </button>
+      <button class="btn" id="next">
+       Próxima etapa →
+      </button>
+      <button class="btn secondary" id="reset">
+       Restaurar exemplo
+      </button>
+     </div>
+    </section>
+    <section class="panel preview">
+     <div class="preview-title">
+      <h2>
+       Prévia do documento
+      </h2>
+      <small>
+       Formato A4 • Atualização instantânea
+      </small>
+     </div>
+     <article class="paper">
+      <div class="ph">
+       <div class="logo">
+        <span>
+         ✚
+        </span>
+        HOSPITAL
+        <br/>
+        <span style="font-size:25px;color:#123653;margin-left:39px">
+         CALIFORNIA RP
+        </span>
+        <small>
+         CENTRO MÉDICO
+        </small>
+       </div>
+       <div class="phright">
+        DEPARTAMENTO DE DERMATOLOGIA
+        <br/>
+        ATENDIMENTO CLÍNICO • ROLEPLAY
+        <br/>
+        LOS SANTOS, CALIFORNIA RP
+       </div>
+      </div>
+      <div class="dochead">
+       <div>
+        <h2>
+         LAUDO MÉDICO
+        </h2>
+        <p>
+         AVALIAÇÃO CLÍNICA • DOCUMENTO DE RP
+        </p>
+       </div>
+       <div class="serial">
+        Nº
+        <span data-out="number">
+        </span>
+        <br/>
+        EMISSÃO:
+        <span data-out="date">
+        </span>
+        <br/>
+        FICTÍCIO / ROLEPLAY
+       </div>
+      </div>
+      <div class="section">
+       01 / IDENTIFICAÇÃO DO PACIENTE
+      </div>
+      <div class="identity">
+       <div class="portrait placeholder" id="portraitHolder">
+        FOTO DO
+        <br/>
+        PACIENTE
+       </div>
+       <div class="data">
+        <div class="item wide">
+         <strong>
+          Nome completo
+         </strong>
+         <div class="value" data-out="patient">
+         </div>
+        </div>
+        <div class="item">
+         <strong>
+          Idade
+         </strong>
+         <div class="value" data-out="age">
+         </div>
+        </div>
+        <div class="item">
+         <strong>
+          Relacionamento
+         </strong>
+         <div class="value" data-out="relationship">
+         </div>
+        </div>
+        <div class="item wide">
+         <strong>
+          Médico responsável
+         </strong>
+         <div class="value" data-out="doctor">
+         </div>
+        </div>
+        <div class="item wide">
+         <strong>
+          Unidade hospitalar
+         </strong>
+         <div class="value" data-out="hospital">
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="section">
+       02 / DIAGNÓSTICO
+      </div>
+      <div class="diagnosis" data-out="diagnosis">
+      </div>
+      <div class="bodycopy">
+       Classificação:
+       <span data-out="code">
+       </span>
+      </div>
+      <div class="section">
+       03 / DESCRIÇÃO CLÍNICA
+      </div>
+      <div class="bodycopy" data-out="description">
+      </div>
+      <div class="section">
+       04 / CONDUTA E RECOMENDAÇÕES
+      </div>
+      <div class="bodycopy" data-out="recommendations">
+      </div>
+      <div class="signatures">
+       <div>
+        <div class="signature" data-out="signature">
+        </div>
+        <div class="sigcaption">
+         <strong data-out="doctor">
+         </strong>
+         <br/>
+         <span data-out="specialty">
+         </span>
+        </div>
+       </div>
+       <div class="stamp">
+        <span data-out="hospital">
+        </span>
+        <br/>
+        <span data-out="doctor">
+        </span>
+        <br/>
+        <span data-out="specialty">
+        </span>
+        <br/>
+        <span data-out="stamp">
+        </span>
+        <br/>
+        CARIMBO FICTÍCIO
+       </div>
+      </div>
+      <div class="foot">
+       DOCUMENTO FICTÍCIO • EXCLUSIVO PARA ROLEPLAY • SEM VALIDADE MÉDICA OU LEGAL
+      </div>
+     </article>
+    </section>
+   </div>
+   <footer class="site-footer">
+    © 2026
+    <span class="studio">
+     ABADDON STUDIO
+    </span>
+    <span aria-hidden="true">
+     •
+    </span>
+    Todos os direitos reservados.
+   </footer>
+  </main>
+  <script src="assets/js/app.js">
+  </script>
+ </body>
+</html>

@@ -1,18 +1,17 @@
-# California RP • Central de Laudos
-Site estático para emissão de laudos fictícios de roleplay.
+# California RP | Central de Laudos
 
-## Publicação
-1. Envie `index.html` para a raiz de um repositório GitHub.
-2. Importe o repositório no Vercel.
-3. Framework Preset: **Other**; Output Directory: deixe vazio.
-4. Clique em Deploy.
+Projeto estático para roleplay.
 
-## Recursos
-- Formulário em quatro etapas com prévia A4 em tempo real
-- Upload local de fotografia do paciente
-- Médico, diagnóstico, assinatura textual e carimbo personalizáveis
-- Exportação e importação de dados em JSON
-- Impressão em PDF pelo navegador
-- Rascunho salvo localmente no navegador (sem servidor)
+## Arquivos
+- `index.html`: estrutura da página
+- `assets/css/style.css`: aparência e impressão A4
+- `assets/js/app.js`: formulário, prévia, foto, importação/exportação e impressão
+- `favicon.svg`: ícone da aba
 
-**Atenção:** não existe banco de dados, autenticação nem armazenamento de pacientes no servidor. Evite dados médicos reais. O documento é fictício e exclusivo para roleplay.
+## Publicar
+Envie todos os arquivos mantendo as pastas ao GitHub. Importe o repositório na Vercel com preset **Other**.
+
+## Uso
+Abra `index.html`, preencha as etapas e escolha Salvar como PDF.
+
+Documento fictício para RP, sem validade médica ou legal.
