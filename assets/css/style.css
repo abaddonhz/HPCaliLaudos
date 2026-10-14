@@ -40,7 +40,15 @@ button{font:inherit;cursor:pointer}
 .paper>*{position:relative;z-index:1}
 .ph{display:flex;justify-content:space-between;align-items:center;border-bottom:3px solid #143d5a;padding-bottom:18px}
 .logo{font-size:22px;line-height:1.06;font-weight:900;color:#123653}
-.logo span{font-size:30px;color:#1687a4;margin-right:8px}
+
+.logo span {
+  display: inline-block;
+  font-size: 48px;
+  color: #1687a4;
+  margin-right: 8px;
+  transform: translateY(12px);
+}
+
 .logo small{display:block;font-size:10px;letter-spacing:3px;margin-left:39px}
 .phright{text-align:right;font-size:9px;color:#537186;line-height:1.7}
 .dochead{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:20px 0}
